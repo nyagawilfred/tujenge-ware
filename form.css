@@ -1,0 +1,307 @@
+body{
+    background-color:beige;
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.header1{
+    background-color:black;
+}
+.form{    
+    margin: 10px 0px 0px 0px;    
+    background-color:black;
+    width:100%;
+    height:80px;
+    height:60px;
+    color:#fff;
+    font-size:20px;
+    float:right;     
+}
+.key{    
+    float:right;
+    padding:10px;
+    margin-left:10px;
+}
+.search-area{
+    width:300px;
+    height:30px;
+    background:#fff;
+    border:none;
+    border-radius:10px;    
+}
+.search-btn{ 
+    width:100px;
+    height:35px;
+    border-radius: 10px;
+    border:none;
+    color:#fff;
+    background:brown;    
+}
+.logo1{
+    width:400px;    
+    float:left;
+}
+#ist{
+    color:beige;
+    font-size:45px;
+    font-weight:bold;
+    margin-left:15px;
+    font-family:cursive;
+}
+#iist{
+    color:beige;
+    font-size:30px;
+    font-weight:bold;    
+    font-family:cursive;
+}
+.header{
+    display:inline-block;
+    width:100%;
+    float:left;    
+    padding:0px;        
+}
+.header .menu{
+    float:left;
+    margin left:20px;
+    margin-top: 0px;
+    color:#fff;    
+}
+.header .logo{
+    margin:50px 0px 0px 0px;
+    
+}
+.slider-text{
+    width:900px;
+    position:absolute;
+    top:40%;
+    bottom:10%;
+    left:5%;
+}
+.slider-text h2{
+    font-size:30px;
+    color:black;
+    font-family:Tw Cen MT;    
+}
+.slider-text p{
+    font-size:20px;
+    font-family:Tw Cen MT;
+    color:black;
+    padding:15px 0;    
+    line-height:22px;
+}
+.slider-text a{
+    display:inline-block;
+    width:130px;
+    height:40px;
+    text-align:center;
+    color:#fff;
+    line-height: 45px;
+    background-color:#c824f7;
+    margin-top: 25px;
+    font-size:20px;
+}
+.menu ul li{
+    display:inline-block;
+    margin-right:40px;
+}
+.menu ul li a{
+    text-decoration:none;
+    color:#52575d;
+    font-size:16px;
+    font-weight:600;
+}
+.products{
+    display:inline-blocks;
+    float:left;
+}
+.heading{ 
+    padding:60px 0;
+    text-align:center;
+}
+.heading h2{
+    font-size:40px;
+    margin-bottom:10px;
+    font-family: Tw Cen MT;
+    color:#222222;
+}
+.heading p{
+    font-size:16px;
+    text-transform: uppercase;
+    color:#919191; 
+}
+.cart{
+    float:left;
+    display:inline-block;
+    width:50px;    
+    padding:15px 0;
+    height:1px;
+}
+.product-item{
+    display:inline-block;
+    width:1400px;
+    display:flex;
+    min-height:500px;
+    margin:0px auto 0;
+    background:#fff;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.product-item .item{
+    position:relative;
+    width:300px;        
+    height:400px;
+    float:left ;
+    margin:1% 1.2% 50px;
+    box-sizing:border-box;
+    display:inline-block;
+}
+.product-item .item .item-image{
+    position:relative;
+    overflow:hidden:
+}
+.product-item .item .item-image img{
+    max-width:100%;
+    transition:trasform 2s;    
+}
+.product-item:hover .item .item-image img{
+    transform:scale:(1.2);
+    
+}
+.item-image .item-button{
+    position:absolute;
+    top:0;
+    left:0;
+    padding:80px 20px;
+    width:100%;
+    height:100%;
+    background-color:rgba(200,36,247,0.7);
+    text-align:center;
+    opacity:0; 
+}
+.item-image .item-button a{
+    text-decoration:none;
+    color:darkslategray;
+    background-color:darkgray;
+    border-radius:4px;
+    width:150px;
+    height:45px;
+    line-height:45px;
+    text-align:center;
+    display:inline-block;
+    margin-bottom:15px;
+     
+}
+.item-title{
+    display:inline-block;
+    float:left;
+    width:100%;
+    text-align:center;
+    padding:15px 0;
+}
+item-title h5{
+    font-size:18px;
+    color:#222222;
+    margin-bottom: 7px;
+    
+}
+.item-tile p{
+    font-size:16px;
+    color:darkolivegreen;
+}
+.item-title p del{
+    color:darkgreen;
+}
+.item:hover .item-button {
+    width:100%;
+    opacity:1;
+    color:aqua;
+}
+.item-button a:hover{
+    background-color:olivedrab;
+    text-decoration-color:#fff;
+}
+.viewall-button{
+    display:inline-block;
+    width:100%;
+    float:left;
+    text-align:center;
+}
+.viewall-button a{
+    text-decoration:none;
+    color:darkcyan;
+    background-color:#fff;
+    border-radius:4px;
+    width:150px;
+    height:45px;
+    line-height:45px;
+    text-align:center;
+    display:inline-block;
+    margin-bottom:15px;
+    border:1px solid cyan;
+}
+.viewall-button a{
+    background-color:darkcyan;
+    color:#fff;
+}
+.footer{
+    display:inline-block;
+    width:100%;
+    float:left;
+    text-align:center;
+    background-color:black;
+    background-size:cover;
+    background-position:center;
+    padding:25px 0; 
+    
+}
+.footer-heading{
+    font-size:18px;
+    color:#898989;    
+}
+.footer-heading h3{
+    font-size:24px;
+    color:#fff;
+    margin-bottom:15px;
+}
+.subscribe-button{
+    padding:5px 0; 
+    margin:35px 0;
+}
+.subscribe-button .email{
+    width:250px;
+    height:40px;
+    border-radius:45px;
+    border:1px solid cyan;
+    color:#c4c4c4; 
+    text-align:center;    
+    font-weight: 600;
+}
+.subscribe-button .sub-button{
+    display:inline-block;
+    padding:15px 15px;
+    background-color:cyan;
+    color:#fff;
+    border:none;
+    border-radius:4px;
+    margin-left:10px;
+    font-weight: 600;
+}
+.footer-menu{    
+    padding:5px 0;    
+}
+.footer-menu ul li{
+    display:inline-block;
+    margin: 0 15px;
+}
+.footer-menu ul li a{
+    text-decoration:none;
+    color:#fff;
+    display:inline-block;
+    text-transform: uppercase;
+}
+p.copyright{
+    color:#fff;
+    margin:30px 0 0;
+    font-size:15px;
+}
+

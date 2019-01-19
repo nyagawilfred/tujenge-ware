@@ -1,0 +1,19 @@
+body{
+	background:#eee;
+	color:white;
+}
+#frm{
+	border:solid grey 5px;
+	width:150px;	
+	margin:150px auto;
+	background:black;
+	padding:50px 80px;
+	font-size:120%;
+    border-radius: 5px;
+}
+#btn{
+	color:#fff;
+	background:darkkhaki;
+	padding:2px;
+	margin-left:80%;
+}
